@@ -1,1 +1,25 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter';
+    --accent-font: 'Press Start2P';
+    --text-weight: 400;
+    --title-weight: 700;
+    --bg-color: #fff;
+    --accent-color: #000;
+    --bg-image: 
+        repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+        repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+        linear-gradient(to bottom, #e7e7e7 10%, #1a1a1a);
+    --content-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+    --logo-title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    --logo-subtitle-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+    --text-shadow-color: var(--bg-color);
+    --color-blend-mode: var(--bg-color);
+    --color-counter-heart: var(--accent-color);
+    --color-main-body-heart: #FF0000;
+    --color-floppy: var(--accent-color);
+    /* --color-main-body-heart-hover: var(--accent-color); */
+
+
+}
+
