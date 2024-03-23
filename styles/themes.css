@@ -15,7 +15,7 @@
         repeating-linear-gradient(to bottom, #007f0c, #004306);
     --color-floppy: var(--accent-color);
     --color-blend-mode: var(--accent-color);
-
+    
 }
 
 :root.theme-light {
@@ -27,6 +27,8 @@
         repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
         repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
         repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+    --color-blend-mode: var(--bg-color);
+    --color-floppy: var(--accent-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,6 +56,8 @@
         repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
         repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
         repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+    --color-blend-mode: var(--bg-color);
+    --color-floppy: var(--accent-color);
     }
 }
 
